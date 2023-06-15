@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lejin Sabu Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/246c87baf6.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>L</span>ejin.</h1>
+                <ul id="sidemenu">
+                    <li class="link"><a href="#portfolio">My Works</a></li>
+                    <li class="link"><a href="#about">About Me</a></li>
+                    <li class="link"><a href="#contact">Contact Me</a></li>
+                    <li class="link1"><a href="images/Lejin.pdf" download class="btn btn2">Download CV</a>
+                    </li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="center">
+            <div class="emoji">
+                <img src="images/emoji.png" alt="">
+            </div>
+            <div class="header-text">
+                <h1>Hi, I'm <span>L</span>ejin Sabu</h1>
+                <p>"Empowering the Web Experiences as a Frontend Developer"</p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-------------------portfolio-------------------------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My <span>W</span>orks</h1>
+            <div class="work-list">
+                <div class="work">
+                    <!-- <img src="images/work-1.png" alt=""> -->
+                    <img src="images/company.png" alt="">
+                    <div class="layer">
+                        <h3>Company website</h3>
+                        <p>Fully Functional Company website (Internship Project)
+                            </p>
+                        <a href="https://lejinsabu.github.io/BaklolMinds/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/fruit.png" alt="">
+                    <div class="layer">
+                        <h3> Fruits Game App</h3>
+                        <p>A Fruits Cutting App, which cuts the falling fruit on mouse hovering and adds scores.
+                            Missing the fruit results lose of life and game ends after three chances. </p>
+                        <a href="https://lejinsabu.github.io/Fruits-Game/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/facebook.png" alt="">
+                    <div class="layer">
+                        <h3>Facebook Clone website</h3>
+                        <p>Facebook clone website with static home page and profile page 
+                            </p>
+                        <a href="https://lejinsabu.github.io/Facebook-clone/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <span id="more" class="more">
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/course.png" alt="">
+                    <div class="layer">
+                        <h3>Course Website</h3>
+                        <p>A simple website of courses, which describes it's Features and details.
+                           </p>
+                        <a href="https://lejinsabu.github.io/Course-Website/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/drawing.png" alt="">
+                    <div class="layer">
+                        <h3> Drawing App</h3>
+                        <p>A drawing app, Where we can draw anything on a canvas with adjustable colours and sizes, also 
+                           erasable.</p>
+                        <a href="https://lejinsabu.github.io/DrawingApp/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/youtube.png" alt="">
+                    <div class="layer">
+                        <h3>Youtube clone</h3>
+                        <p>Youtube clone website with home page and video playing page. 
+                            </p>
+                        <a href="https://lejinsabu.github.io/Youtube-clone/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/calculator.png" alt="">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>A calculator app which performs simple mathematical operations by HTML,CSS and Javascript.
+                            </p>
+                        <a href="https://lejinsabu.github.io/Calculator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/stopwatch.png" alt="">
+                    <div class="layer">
+                        <h3> Stopwatch App</h3>
+                        <p>A Stopwatch app which performs time countind, lap setting and resetting operations by HTML,CSS and Javascript.
+                            </p>
+                        <a href="https://lejinsabu.github.io/Stopwatch/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/netflix.png" alt="">
+                    <div class="layer">
+                        <h3>Netflix clone</h3>
+                        <p>Responsive Netflix clone website by HTML and CSS
+                            </p>
+                        <a href="https://lejinsabu.github.io/Netflix-clone/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </span>
+            <a onclick="myFunction()" class="btn" id="myBtn">See More</a>
+        </div>
+    </div>
+
+
+
+
+    <!-------------------About------------------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>M</span>e</h1>
+                    <p>Front End Developer with HTML, CSS, Javascript, Jquery, Bootstrap, React js
+                        to deliver exceptional customer experiences. Experienced in building muliti-
+                        platform websites using Responsive Web Design/RWD. Adapt at contributing to 
+                        a highly collaborative work enviornment, finding solutions, and determining 
+                        customer satisfaction. </p>
+
+                    
+                </div>
+
+                <div class="about-col-1">
+                    <!--  <img src="images/user.png" alt=""> -->
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul class="skill">
+                            <li><span>HTML | CSS  | Javascript | ES6</span><br><!-- Designing Web/App interfaces --></li>
+                            <li><span>jQuery | Bootstrap | React JS</span><br><!-- Designing Web/App interfaces --></li>
+                            <li><span>C++ | Python | Responsive Design</span><br><!-- Designing Web/App interfaces --></li>
+                            <li><span>MS Office | Photoshop etc.</span><br><!-- Designing Web/App interfaces --></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-current</span><br>Front End Internship <br> Design Koktail, Noida</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>B.Tech <br>Mechanical Engineering</li>
+                            
+                        </ul>
+                    </div>
+                 </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!---------------------------contact----------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact <span>M</span>e</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>lejinpayyappilly@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 7356697853</p>
+                    <p><i class="fa-brands fa-github"></i>lejinsabu</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/lejin.sabu.1/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/lejin_s_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/lejin-sabu-1398511b8"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/lejinsabu"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Lejin. Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+function myFunction() {
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (btnText.innerHTML === "See More") {
+      moreText.style.display = "inline";
+      btnText.innerHTML = "See Less";
+    } else {
+      btnText.innerHTML = "See More";
+      moreText.style.display = "none";
+    }
+  }
+</script>
+</body>
+</html>
