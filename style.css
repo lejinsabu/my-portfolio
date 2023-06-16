@@ -27,6 +27,7 @@ nav{
 }
 nav h1{
     font-size: 36px;
+    cursor: default;
 }
 nav h1 span{
     color: #ff004f;
@@ -394,7 +395,7 @@ nav .fa-solid{
 @media only screen and (max-width:600px){
     
     .center{
-        margin-top: 60%;
+        margin-top: 50%;
     }
     .header-text{
         margin-top: 0%;
